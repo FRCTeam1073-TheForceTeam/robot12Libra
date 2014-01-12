@@ -12,20 +12,21 @@
             <stringAttribute key="BLD::Info|GlobalMacro|EXPAND_DBG" value="0"/>
             <stringAttribute key="BLD::Info|GlobalMacro|PROJECT_TYPE" value="DKM"/>
             <listAttribute key="BLD::Info|Incl|PPC32diab">
-                <stringAttribute value="-I$(WIND_BASE)/target/h"/>
                 <stringAttribute value="-I$(WIND_BASE)/target/h/wrn/coreip"/>
+                <stringAttribute value="-I$(WIND_BASE)/target/h"/>
             </listAttribute>
             <listAttribute key="BLD::Info|Incl|PPC32gnu">
-                <stringAttribute value="-I$(WIND_BASE)/target/h"/>
                 <stringAttribute value="-I$(WIND_BASE)/target/h/wrn/coreip"/>
+                <stringAttribute value="-I$(WIND_BASE)/target/h"/>
             </listAttribute>
             <listAttribute key="BLD::Info|Incl|PPC603diab">
-                <stringAttribute value="-I$(WIND_BASE)/target/h"/>
                 <stringAttribute value="-I$(WIND_BASE)/target/h/wrn/coreip"/>
+                <stringAttribute value="-I$(WIND_BASE)/target/h"/>
             </listAttribute>
             <listAttribute key="BLD::Info|Incl|PPC603gnu">
-                <stringAttribute value="-I$(WIND_BASE)/target/h"/>
                 <stringAttribute value="-I$(WIND_BASE)/target/h/wrn/coreip"/>
+                <stringAttribute value="-I$(WIND_BASE)/target/h/WPILib"/>
+                <stringAttribute value="-I$(WIND_BASE)/target/h"/>
             </listAttribute>
             <listAttribute key="BLD::Info|Macros">
                 <stringAttribute value="VX_CPU_FAMILY"/>
@@ -216,7 +217,7 @@
             <booleanAttribute key="BLD::Info|Tool|Partial Image Linker|passAble" value="true"/>
             <stringAttribute key="BLD::Info|Tool|Partial Image Linker|sigs" value=""/>
             <stringAttribute key="BLD::Info|cmd" value="%makeprefix% make --no-print-directory"/>
-            <stringAttribute key="BLD::Info|defaultSpec" value="PPC32diab"/>
+            <stringAttribute key="BLD::Info|defaultSpec" value="PPC603gnu"/>
             <stringAttribute key="BLD::Info|redirDir|PPC32diab" value="PPC32diab"/>
             <stringAttribute key="BLD::Info|redirDir|PPC32gnu" value="PPC32gnu"/>
             <stringAttribute key="BLD::Info|redirDir|PPC603diab" value="PPC603diab"/>
@@ -229,6 +230,9 @@
                 <stringAttribute value="PPC603gnu"/>
             </listAttribute>
             <intAttribute key="BuildSupportEnabled" value="1"/>
+            <listAttribute key="BuildSupportForBuildSpecs">
+                <stringAttribute value="PPC603gnu"/>
+            </listAttribute>
             <booleanAttribute key="BuildTargetCentric" value="true"/>
         </mapAttribute>
     </attributes>
