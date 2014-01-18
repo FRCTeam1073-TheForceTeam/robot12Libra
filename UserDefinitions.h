@@ -28,10 +28,10 @@ const bool IsRightBackMotorReversed = false;
 #ifdef ENV_VISUALSTUDIO
 #pragma region JAGUARS
 #endif
-	#define CIM_JAG_LEFTBACK 4		// Includes 360 line quad encoder connector
-	#define CIM_JAG_RIGHTBACK 5
+	#define CIM_JAG_LEFTBACK 3		// Includes 360 line quad encoder connector
+	#define CIM_JAG_RIGHTBACK 4
 	#define CIM_JAG_LEFTFRONT 2
-	#define CIM_JAG_RIGHTFRONT 3
+	#define CIM_JAG_RIGHTFRONT 5
 	#define TURRET_JAG 1  //includes 2 limit switches & quad encoder
 	// re-ided turret jag for use with robot14
 	#define UPPER_SHOOTER_JAG 6
